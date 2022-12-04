@@ -1,0 +1,18 @@
+1/composer require laravel/ui
+
+2/Lệnh tạo 1 views cho source code
+php artisan ui:auth
+
+php artisan migrate để chạy lại database và cập nhập thêm những bảng mới
+php artisan migrate:rollback cập nhập lại những thuộc tính mới cho các cột của bảng 
+
+tawkto.com
+tk dangquangminhdn86@gmail.com
+mk Actionfigure1
+
+
+Lưu ý khi tải về chạy lại dự án này!
+1/composer update
+2/npm install
+3/Tạo file .env và copy nguyên si code từ file .env.example dán vào .env 
+4/php artisan key:generate
